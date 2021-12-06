@@ -12,6 +12,8 @@ public class Main {
         }
     }
 
+    // In this state this method solves challenge 2
+    // To solve challenge 1 you just need to prevent non-straigh line form entering the 'allLines'-ArrayList :)
     static int challenge1(String[] inputArr) {
         ArrayList<Line> allLines = new ArrayList<>();
         for(String currentLine : inputArr) {
