@@ -41,7 +41,8 @@ public class Main {
         }
         return result;
     }
-
+    
+    // just used in challenge 2
     static private long[] increaseOneDayNew(long[] pArr) {
         long[] result = new long[9];
         for(int i = 1; i < pArr.length; i++) {
@@ -52,6 +53,7 @@ public class Main {
         return result;
     }
 
+    // just used in challenge 1
     static private void increaseOneDay(ArrayList<Integer> pList) {
         for(int i = 0; i < pList.size(); i++) {
             if(pList.get(i) == 0) {
