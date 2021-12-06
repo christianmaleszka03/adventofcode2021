@@ -10,7 +10,8 @@ public class Main {
 
         System.out.println(challenge2(inputArr));
     }
-
+ 
+    // Very inefficient solution. Does not even work for challenge 2
     static public int challenge1(Integer[] inputArr) {
         ArrayList<Integer> inputList = new ArrayList<Integer>(Arrays.asList(inputArr));
         for(int i = 0; i < 80; i++) {
@@ -21,6 +22,7 @@ public class Main {
         return inputList.size();
     }
 
+    // works for both challenges and is indeed quite efficient. just edit the break-condition in the for loop to modify the generation
     static public long challenge2(Integer[] inputArr) {
         long[] counts = new long[9];
         for(int i = 0; i < inputArr.length; i++) {
